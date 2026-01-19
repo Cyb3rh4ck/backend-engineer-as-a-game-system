@@ -1,0 +1,3 @@
+### Analyze site content
+GET http://localhost:8080/api/analyze?url=https://google.com
+Accept: application/json
