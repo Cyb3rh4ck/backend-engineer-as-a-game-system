@@ -1,0 +1,8 @@
+### Check for duplicates
+POST http://localhost:8080/api/v1/analysis/check-duplicates
+Content-Type: application/json
+Accept: application/json
+
+{
+  "numbers": [1, 2, 3, 1]
+}
